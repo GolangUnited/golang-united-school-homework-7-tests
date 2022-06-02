@@ -10,7 +10,7 @@ import (
 	"testing"
 )
 
-const referenceShaSum = "deeb92f14f4612686b24ed2765500de798b8d4dd8a7ed17352396c928c95172d"
+const referenceShaSum = "7763355c8763f1ce2ff5583afd2687ba123934052e577031af4ee106d5546521"
 
 func TestStudents(t *testing.T) {
 	err := os.Rename("./autocode/students_test", "students_test.go")
